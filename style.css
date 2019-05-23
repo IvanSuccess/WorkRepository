@@ -26,7 +26,8 @@ header{
 	color:#fff;
 }
 h1{
-	font-size: 4rem;
+	text-align: center;
+	font-size: 3.4rem;
 	font-family: 'Montserrat', sans-serif;
 }
 header>p{
