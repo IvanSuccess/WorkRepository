@@ -1,0 +1,98 @@
+@import url(reset.css);
+
+header::before{
+	content: '';
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	height:100vh;
+	background: url(https://wallpaperplay.com/walls/full/6/4/b/62614.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	z-index:-1;
+}
+header{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top:0;
+	left:0;
+	right:0;
+	height: 100vh;
+	background: rgba(0,0,0,.3);
+	color:#fff;
+}
+h1{
+	font-size: 4rem;
+	font-family: 'Montserrat', sans-serif;
+}
+header>p{
+	margin: 1% 0;
+	font-size: 1.3rem;
+	font-family: 'Stylish', sans-serif;
+}
+.gallery>h2{
+	margin: 2% 0;
+	font-family: 'Roboto Slab', serif;
+	font-size: 3rem;
+	text-align: center;
+}
+.image{
+	margin: .5% 0;
+	width:600px;
+	height: 500px;
+	color:#fff;
+	text-align: center;
+	line-height: 500px;
+	font-size: 1.3rem;
+}
+.img1{
+	background: url(https://cdn.wallpapersafari.com/64/90/9SgOiW.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	font-family: 'Cute Font', cursive;
+}
+.img2{
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR64tKLGIcypVvcDf22VFGjxWPBbhR3S2d0jWf7avkzy93WIoLK) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	font-family: 'Montaga', serif;
+}
+.img3{
+	background: url(http://assets.worldwildlife.org/photos/17189/images/story_full_width/shutterstock_1368662231.jpg?1555936672) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	font-family: 'Lato', sans-serif;
+}
+.img4{
+	background: url(https://wallpaperstock.net/profundo-en-el-bosque-de-oto%C3%B1o-wallpapers_38962_1920x1200.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.img5{
+	background: url(https://wallpapershome.com/images/wallpapers/summer-forest-3840x2160-5k-4k-wallpaper-green-trees-leaves-grass-582.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	font-family: 'Raleway', sans-serif;
+}
+.img6{
+	background: url(http://files.all-free-download.com//downloadfiles/wallpapers/1920_1080/forest_trees_wallpaper_landscape_nature_1218.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	font-family: 'Oswald', sans-serif;
+}
+.gallery__wrap{
+	display: flex;
+/* 	position: relative;
+top:0;
+left:0;
+right: 0;
+bottom: 0; */
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+}
